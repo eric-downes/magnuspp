@@ -30,7 +30,7 @@ objc = "0.2"         # Objective-C runtime
 
 [dev-dependencies]
 criterion = "0.7"    # Benchmarking framework
-proptest = "1.7"     # Property-based testing
+proptest = "1.9"     # Property-based testing
 tempfile = "3.8"     # Temporary files for testing
 
 [[bench]]
