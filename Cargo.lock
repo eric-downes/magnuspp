@@ -422,7 +422,7 @@ dependencies = [
  "aligned-vec",
  "criterion",
  "metal",
- "ndarray",
+ "ndarray 0.17.1",
  "num-traits",
  "num_cpus",
  "objc",
@@ -479,6 +479,21 @@ name = "ndarray"
 version = "0.16.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "882ed72dce9365842bf196bdeedf5055305f11fc8c03dee7bb0194a6cad34841"
+dependencies = [
+ "matrixmultiply",
+ "num-complex 0.4.6",
+ "num-integer",
+ "num-traits",
+ "portable-atomic",
+ "portable-atomic-util",
+ "rawpointer",
+]
+
+[[package]]
+name = "ndarray"
+version = "0.17.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0c7c9125e8f6f10c9da3aad044cc918cf8784fa34de857b1aa68038eb05a50a9"
 dependencies = [
  "matrixmultiply",
  "num-complex 0.4.6",
@@ -880,7 +895,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8bff8419009a08f6cb7519a602c5590241fbff1446bcc823c07af15386eb801b"
 dependencies = [
  "alga",
- "ndarray",
+ "ndarray 0.16.1",
  "num-complex 0.4.6",
  "num-traits",
  "num_cpus",
